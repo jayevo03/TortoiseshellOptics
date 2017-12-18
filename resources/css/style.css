@@ -138,3 +138,57 @@ nav {
     font-size: 1rem;
   }
 }
+
+/* icon section */
+
+.icon-row {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 8rem;
+  text-align: center;
+}
+
+.logo-container {
+  width: 5rem;
+  margin: 0 3rem;
+
+}
+
+.icon-image.exams {
+  width: 3.5rem;
+}
+
+.icon-image.fittings, .icon-image.delivery {
+  width: 5rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 550px) {
+
+  .icon-row {
+    margin: 3.77rem auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .icon {
+    width: 100%;
+    align-items: center;
+  }
+
+  .icon-image {
+    margin-top: 1.54rem;
+  }
+
+  .icon-text {
+    font-size: 0.77rem;
+  }
